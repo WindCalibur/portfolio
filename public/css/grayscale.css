@@ -277,7 +277,79 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
+    background: url(../img/skill-bg.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.project-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../img/project-bg.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.work-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../img/work-bg.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.contact-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../img/contact-bg.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.skill-header {
+    width: 100%;
+    padding: 25px 0;
+    color: #fff;
     background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.project-header {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../img/project-bg.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.work-header {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../img/work-bg.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -287,6 +359,11 @@ a:focus {
 
 .tab-font {
     font-size: 30px;
+}
+
+.tab-border {
+    border-style: solid;
+    border-color: #42dca3 #42dca3;
 }
 
 .toggle-box {
@@ -308,6 +385,11 @@ a:focus {
     .content-section {
         padding-top: 250px;
     }
+
+    .skill-display {
+        padding-top: 100px;
+    }
+
 
     .skill-section {container
         padding: 100px 0;
@@ -405,6 +487,7 @@ body {
 }
 
 .skill-tabs, .skill-pills {
+    padding-top: 30px;
     text-align:center;
 }
 
@@ -414,5 +497,32 @@ body {
 
 .skill-window {
     padding-top: 30px;
-    height: 70vh;
+}
+
+.text-centered {
+    position: relative;
+    top: 50%; 
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.skill-label {
+    font-size: 30px;
+    margin: 0 0 0px;
+}
+
+.project-label {
+    padding-top: 30px;
+    font-size: 30px;
+    text-align:left;
+}
+
+.project-description {
+    font-size: 16px;
+    text-align:left;
+}
+
+.tab-item {
+    height: 270px;
+    text-align:left;
 }
