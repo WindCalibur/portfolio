@@ -11,7 +11,7 @@ var http        = require('http'),
     favicon     = require('serve-favicon');
 
 var whitelist = ['https://www.bowen.com', 
-  'http://localhost:3000'];
+  'http://localhost:80'];
 // var corsOptions = {
 //   origin: function(origin, callback){
 //     var originIsWhitelisted = whitelist.indexOf(origin) !== -1;
